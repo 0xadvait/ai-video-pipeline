@@ -22,77 +22,99 @@ LOG_PATH = ROOT / "assets" / "generate_pipeline_diagram.log"
 IMAGE_MODEL = "openai/gpt-image-2"
 
 
-PROMPT = """An information-dense technical infographic poster in a dark terminal
-aesthetic. Portrait orientation. Deep matte black background. ALL text rendered
-in glowing cyan exactly hex #24bce3 on black, in a clean monospaced terminal
-font (IBM Plex Mono / JetBrains Mono / Berkeley Mono register), crisp and
-legible, slight CRT phosphor glow. Light cyan grid lines faintly visible behind
-content. Bordered sections with thin cyan rectangle outlines. Bullet items
-marked with ">" character. Slight scanline texture overlay for terminal vibe.
+PROMPT = """A clean composition of SEVEN MACOS TERMINAL WINDOWS arranged in a
+grid on a deep matte black desktop wallpaper. Each window is a faithful macOS
+Terminal.app rendering: rounded corners, subtle drop shadow, dark charcoal
+title bar at top, THREE TRAFFIC-LIGHT DOTS in the title bar (red, yellow,
+green from left to right) in their correct macOS positions, with the window's
+title centered in the title bar in pale white text. The body of each window
+is pure black with monospaced terminal text in glowing cyan exactly hex
+#24bce3, clean and legible (think Berkeley Mono / IBM Plex Mono / JetBrains
+Mono), crisp not pixelated, with a faint CRT phosphor glow on the cyan text.
 
-TOP-LEFT CORNER: three small colored dots (red, yellow, green) like a macOS
-window bar.
+LAYOUT (portrait 2:3 canvas):
 
-TOP-CENTER TITLE in large all-caps stencil-monospaced cyan text:
-"HOW TO BUILD AN AI-GENERATED SHORT FILM"
+ROW 1 (one wide window spanning full width):
+  Window title bar: "ai-video-pipeline -- README.md"
+  Window content (large heading text):
+    HOW TO BUILD AN AI-GENERATED SHORT FILM
+    A reproducible workflow. Storyboard -> animation -> final cut.
+    Every prompt in source. Every artifact in a manifest.
 
-DIRECTLY UNDER TITLE in smaller cyan terminal text, two short lines:
-"A reproducible workflow.  Storyboard -> animation -> final cut."
-"Every prompt in source. Every artifact in a manifest."
+ROW 2 (two side-by-side windows):
+  LEFT WINDOW title bar: "the-stack.txt"
+  Body:
+    > 1. STORYBOARD    GPT-Image-2
+    > 2. ANIMATION     Kling 3 Omni
+    > 3. FINAL CUT     ffmpeg
 
-THE POSTER BODY IS DIVIDED INTO BORDERED SECTIONS:
+  RIGHT WINDOW title bar: "the-numbers.txt"
+  Body:
+    > 28 scene panels
+    > 13 video clips
+    > 42 API calls
+    > ~$22 total cost
+    > ~40 min wall-clock
+    > 72 sec final film
 
-SECTION 1 (top-left box) header "THE STACK":
-> 1. STORYBOARD   GPT-Image-2  (stills)
-> 2. ANIMATION    Kling 3 Omni (motion)
-> 3. FINAL CUT    ffmpeg       (concat + mix)
+ROW 3 (two side-by-side windows):
+  LEFT WINDOW title bar: "clip-patterns.txt"
+  Body:
+    > SINGLE-SHOT      one panel -> one clip
+    > MULTI-PROMPT     up to 6 sub-shots in one call
+    > KEYFRAME-BRIDGE  start_image + end_image
 
-SECTION 2 (top-right box) header "THE NUMBERS":
-> 28 scene panels
-> 13 video clips
-> 42 API calls
-> ~$22 total cost
-> ~40 min wall-clock
-> 72 sec final film
+  RIGHT WINDOW title bar: "prompt-patterns.txt"
+  Body:
+    > character bible as input_images
+    > strict negative-style headers
+    > story-physics rule + override
+    > multi_prompt < 512 chars
+    > camera direction stated hard
 
-SECTION 3 (mid-left box) header "THREE CLIP PATTERNS":
-> SINGLE-SHOT     one panel  ->  one motion clip
-> MULTI-PROMPT    up to 6 sub-shots in one call
-> KEYFRAME-BRIDGE start_image + end_image
+ROW 4 (two side-by-side windows):
+  LEFT WINDOW title bar: "workflow.sh"
+  Body (terminal command flow with arrows):
+    $ story idea
+      |
+      v
+    [panel prompts] -> [character bible]
+      |
+      v
+    [N scene panels] -> [video clips]
+      |
+      v
+    [stitch + mix] -> [final.mp4]
 
-SECTION 4 (mid-right box) header "THE PROMPT PATTERNS":
-> character bible as input_images
-> strict negative-style headers
-> story-physics rule + override syntax
-> multi_prompt < 512 chars per shot
-> camera direction stated hard
+  RIGHT WINDOW title bar: "what-went-wrong.log"
+  Body:
+    > i2v shadow physics ignored text
+    > -f concat dropped video
+    > amix halved audio
+    > multi_prompt 511 char cap
+    > --force regenerated bible
 
-SECTION 5 (lower-left box) header "WORKFLOW":
-A simple flowchart with labeled arrows showing the data flow:
-[story idea] -> [panel prompts] -> [character bible]
-              -> [N scene panels]  -> [video clips]
-              -> [stitch + mix]    -> [final.mp4]
+ROW 5 (one wide window spanning full width):
+  Window title bar: "bring-your-own.txt"
+  Body:
+    > logo PNG  ->  assets/logos/Symbol_Cyan.png
+    > brand color hex
+    > 28 panel prompts (your story)
+    > brand name + tagline
+    github.com/0xadvait/ai-video-pipeline    MIT
 
-SECTION 6 (lower-right box) header "WHAT WENT WRONG":
-> i2v shadow physics ignored text
-> -f concat dropped video
-> amix halved audio
-> multi_prompt 511 char cap
-> --force regenerated bible
-
-BOTTOM-CENTER  large box header "BRING YOUR OWN":
-> logo PNG
-> brand color hex
-> 28 panel prompts (your story)
-> brand name + tagline
-
-BOTTOM-RIGHT CORNER small text:
-"github.com/0xadvait/ai-video-pipeline   MIT"
-
-Visual style: cinematic dark terminal poster, like a developer's
-documentation render, very dense but every line of text legible. Monospaced
-font throughout. Cyan-on-black ONLY (no other colors except the three
-window dots in the corner). Print-poster proportions, portrait 2:3."""
+VISUAL RULES:
+- Every window has the same chrome aesthetic (rounded corners, thin border,
+  charcoal title bar, traffic-light dots, faint window shadow against black)
+- ALL body text is cyan #24bce3 on pure black, monospaced, crisp
+- Title bar text is pale grey-white
+- Spacing between windows is clean and balanced — like an organized desktop,
+  not chaotic
+- No other UI elements, no other colors except: traffic-light dots, cyan body
+  text, pale title bar text, deep black backgrounds
+- Portrait 2:3 aspect ratio overall
+- This should look exactly like a screenshot of someone's workspace with
+  seven Terminal windows tiled on a dark monitor"""
 
 
 def main() -> int:
