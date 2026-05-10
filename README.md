@@ -1,5 +1,7 @@
 # AI Video Pipeline
 
+![AI Video Pipeline overview](assets/pipeline_diagram.png)
+
 **A reproducible workflow for AI-generated cinematic short films — storyboard → animation → mixed final cut.**
 
 [![GPT-Image-2](https://img.shields.io/badge/Stills-GPT--Image--2-black)](https://replicate.com/openai/gpt-image-2)
