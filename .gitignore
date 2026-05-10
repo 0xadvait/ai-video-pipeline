@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Local-only secrets
+.env
+.env.local
+
+# Generation artifacts that should not be version-controlled
+assets/comic/generate_shadow_comic.log
+assets/clips/generate_shadow_transitions.log
+assets/clips/generate_multi_*.log
+assets/clips/cast_a_shadow_concat.txt
+
+# Optional intermediate outputs (not needed for reproduction)
+assets/clips/*_silent.mp4
+assets/clips/shadow_transitions_stitched.mp4
+
+# Personal music bed lives here but is not redistributable
+assets/audio/music_bed.mp3
+
+# Generated assets — regenerate via scripts/*.py rather than commit
+assets/comic/panels/*.png
+assets/clips/*.mp4
+assets/cast_a_shadow_final.mp4
+assets/cast_a_shadow_final_with_music.mp4

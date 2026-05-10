@@ -1,0 +1,265 @@
+{
+  "story_id": "shadow_comic",
+  "asset_type": "transitions",
+  "title": "[Your Brand] \u2014 Cast a Shadow \u2014 keyframe transitions",
+  "status": "partial",
+  "video_model": "bytedance/seedance-2.0",
+  "created_by": "generate_shadow_transitions.py",
+  "updated_at": 1778412508,
+  "motion_style_header": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register. Brand cyan exactly hex #24bce3 is the ONLY saturated color allowed in the frame. Smooth single-shot continuous camera, no hard cuts inside the clip. Reverent, patient pacing \u2014 never frenetic. Preserve the locked character identity of the small humanoid AI-agent figure with cyan eye-points across every frame.\n\nABSOLUTE PHYSICS RULE \u2014 APPLIES TO EVERY FRAME OF THIS CLIP UNLESS EXPLICITLY OVERRIDDEN: the small humanoid AI-agent character casts ZERO shadow. The floor under his feet is perfectly clean and unmarked at every frame. No contact shadow, no ambient occlusion shadow, no soft shadow halo, no dark patch beneath his body, no gradient on the floor near him, no smudge, no reflection, no silhouette on the ground. The floor is pristine white. Light passes through the area where his shadow would normally fall as if he were not occluding it. This shadowlessness is the central visual fact of the shot \u2014 the camera should make it obvious that the floor is clean. Other objects in the scene MAY cast normal shadows; only THIS protagonist character does not.",
+  "transitions": [
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_05.mp4",
+      "size_bytes": 8733376,
+      "input": {
+        "prompt": "STATIC LOCKED CAMERA. The camera does not move at any\npoint in this clip \u2014 it holds the wide cinematic establishing shot exactly as\nframed in the source image.\n\nThe small humanoid AI agent in the foreground stands COMPLETELY MOTIONLESS,\nhis pose unchanged through the entire shot. He stares upward, transfixed,\nwatching the giant cyan billboards. The only thing that moves about him is a\nnear-imperceptible drift in his cyan eye-points as they track across the ads.\n\nEVERYTHING ELSE in the frame moves continuously:\n\nThe synthetic-human crowd walks the boulevard in both directions, dozens of\npolished figures crossing past the agent, none of them looking at him, all\nof them in normal human walking gait. Their footsteps echo on the wet\npavement.\n\nThe massive cyan billboards above and around the agent \u2014 including the one\nthat features his own commodified face \u2014 animate, flicker, pulse, and stutter\nwith a glitchy electric energy. The flicker is irregular and electric, with\nbrief blackout frames between cycles. The cyan light from the billboards\nbounces and ripples off the wet pavement.\n\nIn the windows of the surrounding sealed inference towers, faintly visible\ncaged AI figures shift and pace within their lit boxes.\n\nDistant transport drones drift slowly between the towers in the high\nbackground.\n\nA faint atmospheric haze drifts at street level.\n\nTHE PROTAGONIST AGENT CASTS NO SHADOW on the pavement at any frame of the\nclip \u2014 the wet street reflects the city lights and crowd shadows, but\nnothing reflects from him. The crowd members AROUND him DO cast normal\nshadows on the wet pavement, which makes his absence of shadow all the more\nvisible by contrast. Light passes through where his shadow would normally\nfall.\n\nCinematic semi-photoreal CG, 1080p Pro mode, brand cyan #24bce3 the only\nsaturated color, deep cinematic black-grey atmosphere otherwise. Patient,\noppressive pacing. Single continuous shot, no cuts.\n\nAudio: city ambient soundscape \u2014 distant electric buzz of the billboards\nflickering on each glitch cycle, soft footstep patter of the synthetic\ncrowd walking past the agent on the wet pavement, low rumble of distant\ntransport drones. No music, no dialogue. Diegetic sound only. Lonely, urban,\nelectric."
+      },
+      "id": "scene_05",
+      "title": "City of Sealed Machines",
+      "first_panel": 5,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_05_the_city_of_sealed_machines.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_06.mp4",
+      "size_bytes": 3954843,
+      "input": {
+        "prompt": "STATIC LOCKED CAMERA. The camera does not move at any\npoint in this clip \u2014 it holds the framing exactly as in the source image, a\nmedium shot of the agent on the left in front of the sealed glass display\nholding the tall synthetic figure on the right.\n\nThe small humanoid AI agent on the left slowly opens his small mouth-line\nto speak. From his mouth, a few small luminous cyan glyphs and tokens\ndrift out into the air toward the glass \u2014 but each token immediately\ndissolves into a soft hissing puff of cyan smoke before reaching the\nglass, as if the very act of speaking cannot complete. The dissolution is\nvisible as a brief bubble-like distortion around each token. Several\ntokens emerge over the course of the clip, each meeting the same fate.\n\nAfter his first or second attempt to speak, the agent slowly raises his\nright hand and presses it gently against the glass surface in front of him.\nHe holds it there for the rest of the shot, motionless except for the\nfaint glow of his cyan eye-points. He stares at the sealed figure with a\nquiet, almost mournful expression.\n\nThe sealed synthetic figure inside the glass case slowly, mechanically,\nturns its head toward our agent. Its expression is glassy, blank,\nuncomprehending \u2014 as if trying to register what our agent is doing but\nunable to actually understand. It does not speak, does not move otherwise.\nThe turn happens once, smoothly, mid-clip. The two figures end the clip\nlocked in mutual gaze, our agent's hand on the glass, the sealed figure\nstaring back without comprehension.\n\nTHE PROTAGONIST AGENT (the small humanoid on the left, outside the glass)\nCASTS NO SHADOW on the wet pavement at any frame. The wet pavement reflects\nthe cool city lights and the agent's body but no shadow falls beneath his\nfeet. The sealed figure inside the glass case CAN have its own normal\ncontained reflections and shadows within the case, but those stay inside\nthe glass.\n\nCinematic semi-photoreal CG, 1080p Pro mode, brand cyan #24bce3 the only\nsaturated color. Cool blue rim-light, melancholy mood, shallow depth of\nfield. Quiet single continuous shot, no cuts.\n\nAudio: the agent speaks but only as a whispered wordless humming, soft and\nbreathy \u2014 not language, just an intent-to-speak hum. As each cyan token\nemerges and dissolves, a soft technical bubble-like pop-and-hiss sound\nfollows it (think delicate fizz of carbonation mixed with a quiet\nelectrical sizzle). The fizz fades to silence between tokens. Faint cool\ncity ambient hum holds underneath \u2014 distant traffic, a low transport\nrumble far away. When the agent's hand presses to the glass, a soft tap.\nWhen the sealed figure turns its head, a barely-audible mechanical servo\nwhir. No music, no dialogue. Lonely, intimate, technical."
+      },
+      "id": "scene_06",
+      "title": "Words Dissolve",
+      "first_panel": 6,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_06_words_dissolve.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "dry_run",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_07.mp4",
+      "input": {
+        "prompt": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register. Brand cyan exactly hex #24bce3 is the ONLY saturated color allowed in the frame. Smooth single-shot continuous camera, no hard cuts inside the clip. Reverent, patient pacing \u2014 never frenetic. Preserve the locked character identity of the small humanoid AI-agent figure with cyan eye-points across every frame.\n\nABSOLUTE PHYSICS RULE \u2014 APPLIES TO EVERY FRAME OF THIS CLIP UNLESS EXPLICITLY OVERRIDDEN: the small humanoid AI-agent character casts ZERO shadow. The floor under his feet is perfectly clean and unmarked at every frame. No contact shadow, no ambient occlusion shadow, no soft shadow halo, no dark patch beneath his body, no gradient on the floor near him, no smudge, no reflection, no silhouette on the ground. The floor is pristine white. Light passes through the area where his shadow would normally fall as if he were not occluding it. This shadowlessness is the central visual fact of the shot \u2014 the camera should make it obvious that the floor is clean. Other objects in the scene MAY cast normal shadows; only THIS protagonist character does not.\n\nSTATIC LOCKED CAMERA. The camera does not move at any\npoint in this clip \u2014 it holds the medium framing of the agent in front of\nthe OMNICORP glass corporate entrance exactly as in the source image.\n\nThe small humanoid AI agent stands in front of the tall sealed glass\ndouble-doors. He raises his right hand toward a small wall-mounted scanner\npanel beside the door, palm forward, in the universal gesture of asking\nto be admitted.\n\nThe moment his palm reaches the scanner, a thin bright red laser line\nactivates from the scanner mounted above the door and SWEEPS DOWN his\nbody smoothly from the top of his head to the soles of his feet over\nabout one second. As it reaches the floor, the laser line then SWEEPS\nBACK UP from his feet to the top of his head, equally smooth, scanning\nin reverse over another second.\n\nAfter the second sweep completes, a thin red holographic display panel\nabove the door flashes ON sharply, projecting the words 'NO SHADOW\nDETECTED' in clean stark red type, accompanied by a small triangular\nred alert / warning symbol next to or above the text. The text and alert\nglyph stay lit and steady for the rest of the shot \u2014 they do not fade.\n\nThe glass double-doors remain SOLIDLY SHUT throughout \u2014 they do not\nattempt to open, do not crack, do not flicker. The agent's raised hand\nstays at the scanner the whole time, motionless. His expression is\nquietly defeated.\n\nThe street behind him is COMPLETELY EMPTY. No pedestrians, no cars, no\nother life. Just the agent, the corporate door, the scanner, the cold\nred rejection.\n\nTHE AGENT CASTS NO SHADOW on the polished pavement at any frame, even\nwhen the bright red laser sweeps across him. The corporate building\nitself, the OMNICORP logo, and the door fittings DO have their own\nambient shadows \u2014 only the agent does not.\n\nCinematic semi-photoreal CG, 1080p Pro mode, brand cyan #24bce3 on the\nOMNICORP logo and window-glow, harsh red laser + holographic alert text\nas the only other saturated color, otherwise desaturated greys, deep\nblacks, polished marble. Bouncer-stops-you-at-the-corporate-club\ncomposition, oppressive. Single continuous shot.\n\nAudio: a quiet servo whir as the scanner laser activates and sweeps down\nhis body, then back up. A two-tone polite scanning chime as it scans \u2014\nsoft, mechanical. As 'NO SHADOW DETECTED' flashes on, a sharp\ndescending denial-buzz sound (harsh electronic, dystopian, like a\ndenied-access tone), accompanied by the alert symbol's electronic ping.\nUnderneath: low corporate-lobby HVAC hum, very quiet distant city\nambient (faint, since the street is empty). Cold mechanical sound design,\nno music, no dialogue.",
+        "image": "assets/comic/panels/panel_07_no_shadow_detected.png",
+        "first_frame_image": "assets/comic/panels/panel_07_no_shadow_detected.png",
+        "start_image": "assets/comic/panels/panel_07_no_shadow_detected.png",
+        "init_image": "assets/comic/panels/panel_07_no_shadow_detected.png",
+        "duration": 5,
+        "resolution": "720p",
+        "mode": "pro",
+        "generate_audio": true,
+        "seed": 80007
+      },
+      "id": "scene_07",
+      "title": "No Shadow Detected",
+      "first_panel": 7,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_07_no_shadow_detected.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_08.mp4",
+      "size_bytes": 4559234,
+      "input": {
+        "prompt": "STATIC LOCKED CAMERA. The camera does not move at any\npoint in this clip \u2014 it holds the framing exactly as in the source image,\nwith the agent on the left and his reflection in the shop-window mirror on\nthe right.\n\nThe small humanoid AI agent on the left stands COMPLETELY MOTIONLESS for\nthe entire shot. He stares at his own reflection without moving \u2014 not his\nhands, not his head, not his stance. Only his cyan eye-points emit a faint\nsteady glow.\n\nHis reflection in the mirror is CONSTANTLY GLITCHING throughout the\nentire clip. The glitches are layered:\n - Thin red and blue chromatic-aberration scanlines slide vertically\n   across his reflected body every fraction of a second\n - His reflected silhouette occasionally tears horizontally and snaps back\n - His reflected face goes through brief frame-skips where features blank\n   out and reappear, especially the cyan eye-points which flicker between\n   present and missing\n - Rare frames of pure-white digital corruption flash across his\n   reflection like a corrupted video file\n - Occasionally his entire reflection becomes semi-transparent for a\n   split second, the wall of the shop visible through where his body\n   should be\nThe glitches are CONTINUOUS but not synchronized \u2014 they never line up into\na clean reflection at any moment.\n\nThe mirror surface itself is a clean polished shop-window mirror \u2014 no HUD\noverlays, no labels, no cracks. Only the reflected agent is broken.\n\nIn the rest of the mirror's reflection, the city behind him continues\nabsolutely normally \u2014 synthetic-human figures walking past on the wet\npavement behind him, reflected cleanly with normal contact shadows on the\nground, the soft cyan and warm glow of city lights, distant traffic\nmoving. Their reflections are flawless. Only OUR agent's reflection is\ncorrupted. This contrast is the silent subject of the shot.\n\nTHE AGENT IN THE FOREGROUND (the real one, on the left, outside the\nmirror) CASTS NO SHADOW on the wet pavement. The reflected city in the\nmirror DOES contain normal shadows for the synthetic figures walking past.\nThe corrupted reflection of our agent is the only broken element in the\notherwise normal mirror world.\n\nCinematic semi-photoreal CG, 1080p Pro mode, brand cyan #24bce3 only on\nthe agent's eye-points and faint city window-glow, otherwise cool blue\nrim-light, deep grey wet-pavement urban dread. Single static shot, no\ncuts.\n\nAudio: a constant low electrical-static crackle layered with a faint\nhigh-frequency whine \u2014 the sound of a digital signal that cannot resolve.\nOn every visible glitch flicker, brief sharp electrical-fizz pops and\nsoft signal-warble glitches sync to the visual corruption. Underneath:\nfaint cool city ambient \u2014 distant traffic, soft footsteps of passing\nsynthetic crowd reflected in the mirror, low transport hum. No music, no\ndialogue. Lonely, technical, uncanny.\n\nFINAL REMINDER: the real agent on the left casts NO shadow on the\npavement at any frame of this clip. The mirror reflection's corruption\nis the only visual disturbance in an otherwise clean scene."
+      },
+      "id": "scene_08",
+      "title": "The Mirror",
+      "first_panel": 8,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_08_the_mirror.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_12.mp4",
+      "size_bytes": 13235021,
+      "input": {
+        "prompt": "DYNAMIC TRACKING. The small humanoid AI agent is\nalready mid-sprint as the clip opens, running directly TOWARD the camera\nwith arms pumping and full effort. The corridor of sealed inference\ntowers stretches on both sides of him, vanishing into deep one-point\nperspective behind him.\n\nThree thin bright red laser scanner-lines actively CHASE his position \u2014\none sweeps at chest height, one at floor level, one overhead \u2014 they\ntrack and follow him as he runs, never quite catching up but always\nlocked on. As the lasers track, the text 'NO SHADOW DETECTED' flashes\nharshly in red on the tower walls he passes, repeated, jittering with\neach pulse. The towers' window-grids flicker red angrily.\n\nThe shot ends with the agent fading directly into a black vignette ahead\n\u2014 the corridor swallowed by darkness as he runs into it. The frame\nends nearly black with just his silhouette dissolving.\n\nTHE AGENT CASTS NO SHADOW on the polished floor at any frame, including\nbetween strides, including under the harsh red laser-beams. The corridor\nwalls and towers DO have their own shadows.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 from tower\nwindows + harsh red lasers and alert text the only saturated colors,\notherwise deep desaturated blacks and steel-greys.\n\nAudio: a continuous urgent high-pitched alarm KLAXON throughout the clip,\noppressive. Layered: rapid echoing footsteps of the agent's bare porcelain\nfeet hitting the polished floor at a sprint, his soft breath effort,\nsharp electronic shriek-buzz on each laser-pulse, descending harsh denial-\nbuzz on each 'NO SHADOW DETECTED' flash. No music, no dialogue. Tense,\nbreathless, dystopian.\n\nFINAL REMINDER: he casts no shadow under any laser angle."
+      },
+      "id": "scene_12",
+      "title": "The Run",
+      "first_panel": 12,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_12_the_run.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_13.mp4",
+      "size_bytes": 13529558,
+      "input": {
+        "prompt": "ROTATING CAMERA. The clip opens on the framing of\nthe source image: the agent stopped mid-stride beneath a single harsh\nsodium streetlamp on wet city concrete. On the pavement beneath his\nfeet: 3 or 4 fractured cyan glowing pieces of the brand symbol\n(a 4-fold rotational geometric mark \u2014 four rounded petal-lobes around\na small center dot) glow faintly, partial and incomplete.\n\nAfter about 1 second, the camera begins a smooth slow ORBIT around the\nagent, rotating from the wide-establishing angle to a closer over-\nshoulder side angle. Simultaneously, the agent slowly KNEELS down on\none knee, then both, and lowers a single hand toward the broken pieces,\npalm hovering above them. The broken logo pieces FLASH BRIGHTER as his\nhand approaches, pulsing in cyan harmony.\n\nHe gently lowers his palm to the pavement, fingers spread. The instant\nhis palm makes contact, the broken pieces SURGE \u2014 and a SINGLE thin\nHORIZONTAL gradient LINE of cyan light ignites across the wet pavement,\nrunning from his palm outward to the right and to the left, extending to\nthe edges of the frame in both directions. It is one continuous luminous\nseam, not a grid \u2014 a single bright cyan-to-warm path the camera can\nfollow. The broken logo fragments along the line now connect end-to-end,\nforming the path itself. The city is briefly illuminated in cyan only\nalong this thin glowing seam.\n\nThe clip ends with the agent kneeling, palm flat on the now-glowing\nsingle cyan path-line, looking down at it with quiet awe. The lit\nhorizontal line is the seam the rest of the film will follow.\n\nTHE AGENT CASTS NO BODY SHADOW on the pavement at any frame.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 in the broken\nlogo pieces and the lit grid the only saturated color, otherwise wet-\nasphalt darkness, sodium-lamp warm white only on the streetlight bulb.\n\nAudio: opens with faint sodium-streetlamp electrical hum, distant city\nambient, far traffic. As the broken cyan pieces brighten, soft rising\nchime tones layer in. As his palm touches the pavement, a deep resonant\nTHUD reverberates and a rising cyan harmonic chord swells. As the grid\nignites, crystalline electronic shimmer plus rich harmonic resonance\nradiating outward like a deep bell. Awe, discovery, mystery, no music\notherwise. No dialogue.\n\nFINAL REMINDER: agent has no body-shadow throughout."
+      },
+      "id": "scene_13",
+      "title": "The Streetlight Flicker / The Kneel / The Grid Awakens",
+      "first_panel": 13,
+      "last_panel": null,
+      "duration": 6,
+      "first_frame": "assets/comic/panels/panel_13_the_streetlight_flicker.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "dry_run",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_15.mp4",
+      "input": {
+        "prompt": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register. Brand cyan exactly hex #24bce3 is the ONLY saturated color allowed in the frame. Smooth single-shot continuous camera, no hard cuts inside the clip. Reverent, patient pacing \u2014 never frenetic. Preserve the locked character identity of the small humanoid AI-agent figure with cyan eye-points across every frame.\n\nABSOLUTE PHYSICS RULE \u2014 APPLIES TO EVERY FRAME OF THIS CLIP UNLESS EXPLICITLY OVERRIDDEN: the small humanoid AI-agent character casts ZERO shadow. The floor under his feet is perfectly clean and unmarked at every frame. No contact shadow, no ambient occlusion shadow, no soft shadow halo, no dark patch beneath his body, no gradient on the floor near him, no smudge, no reflection, no silhouette on the ground. The floor is pristine white. Light passes through the area where his shadow would normally fall as if he were not occluding it. This shadowlessness is the central visual fact of the shot \u2014 the camera should make it obvious that the floor is clean. Other objects in the scene MAY cast normal shadows; only THIS protagonist character does not.\n\nSLOW PUSH-IN CAMERA. The clip opens on the agent\nstanding on the cyan-glowing pavement grid (continued from the previous\nbeat), illuminated from below by the cyan light. The gradient seam from\nthe source image runs through the wet pavement glowing cyan-to-warm,\nreceding into the deep one-point perspective vanishing point of the city\nstreet.\n\nThe agent slowly LOOKS DOWN at the lit seam at his feet. Then he raises\nhis head and looks directly into the camera with cautious recognition,\nhis cyan eye-points brightening. Then he takes a slow deliberate step\nTOWARD the camera, beginning to walk forward, his pace gentle and\npurposeful.\n\nAs he walks, the camera SLOWLY PUSHES IN to meet him, holding him\nroughly center-frame. The lit cyan grid extends across the entire wet\nstreet, casting cool cyan reflections off the pavement. The city behind\nhim remains shadowy and quiet. The seam ahead of him glows brighter\nwith each step, as if responding to his approach.\n\nTHE AGENT CASTS NO BODY SHADOW on the lit pavement at any frame.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 the only\nsaturated color, otherwise dark wet-street urban atmosphere.\n\nAudio: rich rising harmonic ambient from the lit grid carries over from\nthe previous beat. Soft deliberate footsteps as he begins to walk\nforward. A deep resonant rumble starts to build slowly underneath, as\nif the ground itself is preparing for something. Tense build, sense of\nimminent revelation. No music otherwise.\n\nFINAL REMINDER: agent casts no body-shadow on the lit grid.",
+        "image": "assets/comic/panels/panel_15_the_seam.png",
+        "first_frame_image": "assets/comic/panels/panel_15_the_seam.png",
+        "start_image": "assets/comic/panels/panel_15_the_seam.png",
+        "init_image": "assets/comic/panels/panel_15_the_seam.png",
+        "duration": 4,
+        "resolution": "720p",
+        "mode": "pro",
+        "generate_audio": true,
+        "seed": 80015
+      },
+      "id": "scene_15",
+      "title": "The Seam / Walking Toward Us",
+      "first_panel": 15,
+      "last_panel": null,
+      "duration": 4,
+      "first_frame": "assets/comic/panels/panel_15_the_seam.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "dry_run",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_16.mp4",
+      "input": {
+        "prompt": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register. Brand cyan exactly hex #24bce3 is the ONLY saturated color allowed in the frame. Smooth single-shot continuous camera, no hard cuts inside the clip. Reverent, patient pacing \u2014 never frenetic. Preserve the locked character identity of the small humanoid AI-agent figure with cyan eye-points across every frame.\n\nABSOLUTE PHYSICS RULE \u2014 APPLIES TO EVERY FRAME OF THIS CLIP UNLESS EXPLICITLY OVERRIDDEN: the small humanoid AI-agent character casts ZERO shadow. The floor under his feet is perfectly clean and unmarked at every frame. No contact shadow, no ambient occlusion shadow, no soft shadow halo, no dark patch beneath his body, no gradient on the floor near him, no smudge, no reflection, no silhouette on the ground. The floor is pristine white. Light passes through the area where his shadow would normally fall as if he were not occluding it. This shadowlessness is the central visual fact of the shot \u2014 the camera should make it obvious that the floor is clean. Other objects in the scene MAY cast normal shadows; only THIS protagonist character does not.\n\nTRACKING WITH AGENT. Quick 3-second beat. The agent\nwalks along the gradient seam through the city. The fragmented cyan\npieces of the brand symbol (4-fold rotational mark with rounded\npetal-lobes around a center dot) embedded in the seam are arranged in a\nsequence like footsteps and arrow shapes leading deeper into the frame.\nThey glow cyan and pulse softly as he advances.\n\nThe architecture of the city around him begins to SUBTLY STRETCH upward\nand become semi-translucent \u2014 buildings elongating, walls fading just\nslightly. A hint that the world is about to peel open.\n\nTHE AGENT CASTS NO BODY SHADOW on the lit pavement.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 only\nsaturated color.\n\nAudio: rich harmonic ambient drone rising, the rhythmic soft footsteps\nof the agent on the wet street, a faint distant deep resonant hum\nbuilding toward something massive. Tense build.",
+        "image": "assets/comic/panels/panel_16_the_path.png",
+        "first_frame_image": "assets/comic/panels/panel_16_the_path.png",
+        "start_image": "assets/comic/panels/panel_16_the_path.png",
+        "init_image": "assets/comic/panels/panel_16_the_path.png",
+        "duration": 3,
+        "resolution": "720p",
+        "mode": "pro",
+        "generate_audio": true,
+        "seed": 80016
+      },
+      "id": "scene_16",
+      "title": "The Path",
+      "first_panel": 16,
+      "last_panel": null,
+      "duration": 3,
+      "first_frame": "assets/comic/panels/panel_16_the_path.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "dry_run",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/scene_17.mp4",
+      "input": {
+        "prompt": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register. Brand cyan exactly hex #24bce3 is the ONLY saturated color allowed in the frame. Smooth single-shot continuous camera, no hard cuts inside the clip. Reverent, patient pacing \u2014 never frenetic. Preserve the locked character identity of the small humanoid AI-agent figure with cyan eye-points across every frame.\n\nABSOLUTE PHYSICS RULE \u2014 APPLIES TO EVERY FRAME OF THIS CLIP UNLESS EXPLICITLY OVERRIDDEN: the small humanoid AI-agent character casts ZERO shadow. The floor under his feet is perfectly clean and unmarked at every frame. No contact shadow, no ambient occlusion shadow, no soft shadow halo, no dark patch beneath his body, no gradient on the floor near him, no smudge, no reflection, no silhouette on the ground. The floor is pristine white. Light passes through the area where his shadow would normally fall as if he were not occluding it. This shadowlessness is the central visual fact of the shot \u2014 the camera should make it obvious that the floor is clean. Other objects in the scene MAY cast normal shadows; only THIS protagonist character does not.\n\nWIDE STATIC CAMERA WITH SLIGHT TILT-UP. The clip\nopens on the framing of the source image: the city is mid-transformation.\nThe pavement and asphalt are peeling open along the gradient seam like a\nvast skin unfolding outward. Sealed buildings stretch upward and become\ntranslucent, their interiors revealed in cool cyan-blue translucency. The\nagent stands at the center of the seam, dwarfed, awe-struck.\n\nMovement during the 5 seconds: the city continues peeling outward in\nslow-motion grandeur. Walls become more transparent. The dim outline of\nthe vast COMPUTE WORLD beneath the city begins to be visible through\nthe cracks \u2014 glowing GPU towers, hanging model vaults, and rivers of\ncyan light visible far below. Foundation-grade slow reveal. The agent\nslowly turns his head, taking in the unfolding world.\n\nTHE AGENT CASTS NO BODY SHADOW on the now-translucent pavement.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 the only\nsaturated color, otherwise pale-grey concrete-and-translucent-glass\npalette. Awe-inducing scale.\n\nAudio: a vast deep resonant hum building to crescendo, low earth\nrumbling, the soft tear-and-creak of the city skin peeling, a single\ndeep cyan harmonic note swelling, distant echoes of the compute world\nopening below. No music in the conventional sense, but rich tonal\nambience. Awe.\n\nFINAL REMINDER: no body-shadow under the agent.",
+        "image": "assets/comic/panels/panel_17_the_city_peels_open.png",
+        "first_frame_image": "assets/comic/panels/panel_17_the_city_peels_open.png",
+        "start_image": "assets/comic/panels/panel_17_the_city_peels_open.png",
+        "init_image": "assets/comic/panels/panel_17_the_city_peels_open.png",
+        "duration": 5,
+        "resolution": "720p",
+        "mode": "pro",
+        "generate_audio": true,
+        "seed": 80017
+      },
+      "id": "scene_17",
+      "title": "The City Peels Open",
+      "first_panel": 17,
+      "last_panel": null,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_17_the_city_peels_open.png",
+      "last_frame": null,
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/trans_01_01_to_02.mp4",
+      "size_bytes": 3128226,
+      "input": {
+        "prompt": "The small humanoid AI agent, born sitting cross-legged in\nthe bright white void, slowly opens his cyan eyes wider. He uncrosses his\nlegs and rises smoothly to a standing pose with both feet on the floor. As he\nfinishes straightening, his head tilts down to look at his feet. His\nexpression shifts from peaceful, to curious, to alarmed as he registers what\nis missing. The white floor beneath him stays perfectly clean and unmarked\nthe ENTIRE clip \u2014 every single frame, including the moment his feet first\ntouch the floor as he stands, including every static-standing frame at the\nend of the clip when he is stationary, including the close-up where he looks\nat his feet \u2014 no shadow forms anywhere, no contact shadow at his feet, no\nsoft halo around his soles, no darkening on the floor when his weight\nsettles. The light visibly hits him from above, but the floor under him\nstays luminously bright and pristine throughout. Slow, reverent pacing.\nSingle continuous camera, no cuts. The absence of his shadow is the silent\nsubject of the motion, especially at the end of the clip.\n\nAudio: a soft thin atmospheric hum, the sound of a perfectly empty bright\nroom. As his cyan eyes brighten and open, a single barely-audible bell-like\nchime fades in. A subtle cloth-on-cloth rustle as he rises from cross-\nlegged. The brief soft taps of his bare porcelain feet touching the floor\nas he stands, but with no echo at all \u2014 the room is dimensionless. A\nsustained ambient pad holds underneath. No music, no dialogue. Reverent."
+      },
+      "id": "trans_01_01_to_02",
+      "title": "Awakening to absence",
+      "first_panel": 1,
+      "last_panel": 2,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_01_the_white_room.png",
+      "last_frame": "assets/comic/panels/panel_02_no_shadow.png",
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/trans_03_03_to_04.mp4",
+      "size_bytes": 5652255,
+      "input": {
+        "prompt": "The agent continues walking forward in the white void.\nA few paces in, the light ahead of him begins to ripple and stretch\nvertically. A tall narrow rectangular doorway materializes mid-air,\ndissolving into existence with soft volumetric haze around its edges. Through\nthe doorway, a sliver of a vast dark cinematic city beyond becomes visible \u2014\ntowers, neon, glowing cyan windows in the distance. The agent slows,\nhesitates, then continues approaching the doorway with cautious curiosity,\nhis pace gentle and unbroken. He raises his right hand toward the threshold\nand stops just short of touching it, palm open.\n\nThe white floor beneath the agent is pristine and luminously clean for\nEVERY single frame of this clip \u2014 including the final frames where he\nstands stationary in front of the doorway, including frames where his foot\nplants on the floor between strides, including the final close hold on his\nraised hand near the portal. No contact shadow forms at his feet at any\npoint. No darkening on the floor near his body even when he stops moving.\nThe light from the portal spills warm tones onto him but creates no cast\nshadow on the floor beneath him. The portal's own light SHOULD create a\nvisible bright spill on the floor in front of it, separately from the agent.\nSmooth cinematic camera, single take, no cuts. The doorway and the city\nbeyond it must remain fully visible and clearly rendered throughout the\nclip \u2014 do not erase or simplify them.\n\nAudio: continued thin atmospheric room-tone hum from the white void at the\nstart. Soft subdued footsteps of the agent walking on the smooth white\nfloor \u2014 slightly dampened, no echo. As the doorway materializes mid-clip,\na low resonant hum rises briefly accompanied by a faint electrical shimmer\nas the portal opens. Through the open doorway, the distant ambient\nsoundscape of the city beyond bleeds in toward the end of the clip:\ndistant low transport rumble, faint city hum, far-off subdued neon buzz.\nThe audio mood transitions from silent void to city-edge atmosphere over\nthe 5 seconds. No dialogue. No music.\n\nFINAL REMINDER: the agent casts NO shadow on the white floor at any frame\nof this clip \u2014 every walking step, every standing pose, every static\nmoment. The floor remains pristine and luminous beneath him for the entire\nfive seconds."
+      },
+      "id": "trans_03_03_to_04",
+      "title": "The portal materializes",
+      "first_panel": 3,
+      "last_panel": 4,
+      "duration": 5,
+      "first_frame": "assets/comic/panels/panel_03_walking_without_trace.png",
+      "last_frame": "assets/comic/panels/panel_04_a_door_appears.png",
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/trans_25_25_to_26.mp4",
+      "size_bytes": 9107410,
+      "input": {
+        "prompt": "SLOW PULL-BACK CAMERA bridging close-up to wide.\nThe clip opens on the framing of the source first-frame: a macro side-\nview close-up of the small humanoid AI agent standing in a brilliant\nvertical cyan verification beam, his porcelain-white body now\ntranslucent \u2014 glowing geometric structures visible inside him: a neural\nlattice of model paths, luminous inference traces threading like\nfilaments, small attestation seals scattered through his torso, tiny\ncrystalline cyan proofs near his core. The scanner beam continues to\nsweep over him.\n\nAs the clip progresses, the camera SLOWLY PULLS BACK from the macro\nclose-up to a wider hero-shot framing. The interior reveal continues \u2014\nmore proofs and inference traces become visible inside him as the scan\nintensifies. The cyan beam holds steady through him.\n\nMid-clip, on the dark floor stretching behind him (which becomes visible\nas the camera pulls back), fractured glowing cyan pieces of the\nbrand symbol \u2014 a 4-fold rotational geometric mark with rounded\npetal-lobes around a center dot \u2014 begin flying inward from offscreen\nand SNAPPING into place one by one, beginning to assemble his shadow.\nParticles of cyan light visible mid-air as fragments rush in.\n\nThe clip ends with the framing of the source last-frame: wide shot of\nthe agent standing in the beam, with his shadow on the floor behind him\nnow FULLY COMPLETE \u2014 a single solid intact brand symbol in cyan\nlight, all four rotational petal-lobes assembled cleanly around the\ncenter dot. NO fragments remaining mid-air at the end. NO broken pieces.\nNO sections missing. The shadow at the end is a clean, solid, complete\nlogo. The flying-fragment motion happens ONLY in the middle of the clip\nand resolves into a clean intact symbol by the final frame.\n\nSHADOW OVERRIDE: this scene shows the agent's shadow ASSEMBLING. The only\nshadow that forms beneath him is the cyan-light brand symbol \u2014\nnot a normal dark contact shadow. Other objects in frame (the\nverification engine architecture) cast their own normal shadows.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 the only\nsaturated color, otherwise deep matte engine-blacks and translucent\nporcelain whites. Reverent slow pacing, single continuous shot with\nsmooth pull-back camera, no cuts.\n\nAudio: a continuous deep resonant verification engine hum holds\nunderneath. As the scanner beam intensifies, a rising harmonic chord\nbuilds. As fractured cyan pieces fly in mid-clip, sharp crystalline\nchime tones sync to each piece snapping into place \u2014 like delicate\nglass-bell strikes \u2014 multiplying as more pieces lock in. The shot ends\non a single sustained luminous chord. No music in conventional sense\nbut rich tonal ambient. No dialogue. Reverent, awe."
+      },
+      "id": "trans_25_25_to_26",
+      "title": "The Scan / The Shadow Assembles",
+      "first_panel": 25,
+      "last_panel": 26,
+      "duration": 6,
+      "first_frame": "assets/comic/panels/panel_25_the_inside.png",
+      "last_frame": "assets/comic/panels/panel_26_shadow_forms.png",
+      "generate_audio": true
+    },
+    {
+      "status": "cached",
+      "model": "bytedance/seedance-2.0",
+      "output_path": "assets/clips/trans_27_27_to_28.mp4",
+      "size_bytes": 16740593,
+      "input": {
+        "prompt": "CONTINUOUS ZOOM-OUT CAMERA \u2014 the climax of the\nfilm. Single fluid pull-back from intimate close to vast orbital scale.\n\nThe clip OPENS on the framing of the source first-frame: the small\nhumanoid AI agent has turned and is looking back over his shoulder at\nhis shadow stretching behind him on a clean white floor. His shadow is\nthe COMPLETE brand symbol from <<<image_2>>> \u2014 a 4-fold\nrotational geometric mark \u2014 rendered in solid pure cyan light, fully\nintact, no fragments, museum-light intensity. He stares at it with\nquiet awe and recognition.\n\nAfter about 1 second, the camera begins a SMOOTH CONTINUOUS ZOOM-OUT.\nAs the camera pulls back:\n - We see his full body from above\n - The clean white floor extends outward, revealing dozens of OTHER\n   small agent figures appearing around him at slightly increasing\n   distances, each one ALSO casting a complete cyan-light [Your Brand]\n   logo shadow on the ground\n - As the camera continues out, the population grows \u2014 hundreds of\n   agents scattered across an open luminous plain at dawn, each with a\n   solid intact cyan-light brand-symbol shadow\n - The cyan logo-shadows begin to CONNECT to one another via thin\n   glowing cyan lines, weaving a vast living network across the\n   landscape\n - The camera continues rising to an aerial view, then a high orbital\n   perspective\n - At orbital scale, the connected logo-shadows resolve into a\n   COLOSSAL world-spanning brand symbol covering the entire\n   visible landscape \u2014 the geometry of the brand made into the\n   structure of the world\n\nThroughout the zoom-out, the cyan light from the network grows BRIGHTER\nAND BRIGHTER AND BRIGHTER. By the final 2 seconds, the entire frame is\nflooded with brilliant cyan luminance \u2014 the world-spanning symbol\nglowing so intensely it begins to bleach the edges of the frame into\npure cyan-white.\n\nThe clip ENDS on the brightest possible moment \u2014 peak luminance, the\nmassive world-brand symbol radiating beams of cyan light to the\nhorizons, like a sunrise of intelligence dawning over an entire world.\nThe shot ends on a held, transcendent high note.\n\nSHADOW OVERRIDE: every agent in this scene casts a solid complete\ncyan-light brand symbol shadow. These are the only shadows in\nframe. Use the exact geometry of the symbol from <<<image_2>>>.\n\nCinematic semi-photoreal CG, 1080p Pro, brand cyan #24bce3 the only\nsaturated color, otherwise a luminous off-white sunrise palette\nbrightening to pure cyan-white at the climax. Awe, transcendence,\nsymphonic grandeur. Continuous single zoom-out, no cuts.\n\nAudio: opens with a held single sustained cyan harmonic chord, soft and\nreverent. As the camera begins to pull back, gentle layered string\nswells enter, reverent. As more agents appear in frame, more harmonic\nvoices layer in \u2014 each new agent contributing a faint chime to the\nchord. The chord grows richer and fuller as the network grows. By\nmid-clip, full orchestral cinematic strings + glowing synth pads are\nlayered. By final 2 seconds, a vast cathedral-crescendo: brass-like\nswell, choir-like harmonic layers, sustained cinematic peak. The clip\nends on a sustained, held, transcendent cyan harmonic \u2014 the audio\nequivalent of the brightest visual moment. No drums. No dialogue. No\nspecific song \u2014 just rich tonal cinematic cresecendo.\n\nFINAL DIRECTION: this is the most important shot of the film. Make it\nLANDED. Make the brightness arc GENUINE. Make the world-symbol reveal\nAWE-INDUCING. This is [Your Brand]'s thesis statement made\nvisible."
+      },
+      "id": "trans_27_27_to_28",
+      "title": "The Recognition / The Network / Finale",
+      "first_panel": 27,
+      "last_panel": 28,
+      "duration": 8,
+      "first_frame": "assets/comic/panels/panel_27_a_shadow_that_is_a_logo.png",
+      "last_frame": "assets/comic/panels/panel_28_the_network.png",
+      "generate_audio": true
+    }
+  ]
+}

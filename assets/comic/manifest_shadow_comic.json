@@ -1,0 +1,390 @@
+{
+  "story_id": "shadow_comic",
+  "title": "[Your Brand] \u2014 Cast a Shadow",
+  "thesis": "An AI agent has no shadow. The world refuses to recognize him until he stops performing and steps into a verification light. His shadow is the brand symbol. Other agents follow.",
+  "tagline": "[Your tagline goes here]",
+  "status": "ok",
+  "image_model": "openai/gpt-image-2",
+  "created_by": "generate_shadow_comic.py",
+  "updated_at": 1778413369,
+  "style_header": "Cinematic semi-photoreal CG render, modern feature-film quality, Pixar/DreamWorks/Apple-TV-Foundation visual register, dramatic single-source key lighting, anamorphic 3:2 frame, deep cinematic negative space. Color rule: ONLY one saturated color is allowed in the frame \u2014 brand cyan exactly hex #24bce3. Everything else is desaturated greys, warm off-whites, deep matte blacks. No teal, no aqua, no other blues. Style negatives: NEVER line art, NEVER comic illustration, NEVER watercolor, NEVER anime, NEVER hand-painted, NEVER pastel, NEVER Studio Ghibli register. Feature-film 3D CG render only. No on-screen text or UI overlays unless the panel explicitly calls for it. \n\nCRITICAL SHADOW RULE \u2014 APPLIES TO EVERY PANEL UNLESS THE PANEL BODY EXPLICITLY OVERRIDES IT WITH 'SHADOW OVERRIDE': the small humanoid AI-agent character casts NO shadow on any surface \u2014 no shadow on the floor beneath his feet, no shadow on walls behind him, no contact shadow under his body, no ambient occlusion shadow at his feet. The ground beneath him remains perfectly clean and unmarked even when he is brightly lit. Light passes him without leaving a trace. The ABSENCE of his cast shadow is the single most important visual fact of every panel until the story explicitly grants him one. Other objects, buildings, props, vehicles, and other characters in the frame DO cast normal shadows \u2014 only THIS protagonist does not.",
+  "agent_description": "the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly.",
+  "logo_path": "assets/logos/Symbol_Cyan.png",
+  "bible": {
+    "status": "cached",
+    "model": "openai/gpt-image-2",
+    "output_path": "assets/comic/agent_reference_sheet.png",
+    "size_bytes": 1665012,
+    "input": {
+      "prompt": "Create a production character reference sheet for an original\nsmall AI-agent character used in a feature-film CG short. Fixed visual\nidentity: smooth matte porcelain-white body the size of a small child (about\none meter tall), perfectly clean smooth surfaces, no clothing, no face except\nfor two warm cyan eye-points (exactly hex #24bce3) with single catch-lights,\nsimple smooth limbs, four-fingered rounded hands, slightly bulbous head,\ndeliberately ungendered and template-like. He looks cute but uncanny \u2014\ndesigned to read as Any Agent, not a specific character.\n\nLayout: full-body front view, full-body side profile, full-body three-quarter\nview, four small expression studies (curious, alarmed, defeated, calm-resolve)\nshown by posture and eye-glow alone, hand close-up. Plain off-white background,\neditorial production-art reference sheet, clean and consistent across all\nviews, soft warm key light from upper-left. No on-screen labels except tiny\nneutral panel titles. No logos. No text. No extra characters."
+    },
+    "id": "agent_reference_sheet",
+    "role": "character_bible"
+  },
+  "panels": [
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_01_the_white_room.png",
+      "size_bytes": 1129253,
+      "input": {
+        "prompt": "Wide establishing shot. A perfectly white empty void room \u2014 no walls visible, no doors, no windows, no floor edges, just bright diffuse luminance. At the center, the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. appears, sitting cross-legged, just beginning to open his eyes. Soft cyan eye-glow is the only saturated point in the frame. Reverent stillness."
+      },
+      "id": "01",
+      "title": "The White Room",
+      "caption": "A small AI agent is born inside a perfectly white room.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_02_no_shadow.png",
+      "size_bytes": 1494533,
+      "input": {
+        "prompt": "Medium-wide shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands in the bright white void, looking down at the perfectly clean white floor beneath his feet. There is no shadow under him at all \u2014 the floor is unmarked, untouched. His pose is alarmed, leaning slightly forward. The absence is the subject of the frame. Soft directional light from above, but no shadow lands."
+      },
+      "id": "02",
+      "title": "No Shadow",
+      "caption": "He has no shadow.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_03_walking_without_trace.png",
+      "size_bytes": 1547539,
+      "input": {
+        "prompt": "Wide shot from low angle. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. walks across the white void, mid-stride. Two visible light sources from different directions cast no shadows on the floor near him. His feet leave no marks. Negative space dominates. Eerie, clean, sterile."
+      },
+      "id": "03",
+      "title": "Walking Without Trace",
+      "caption": "The light followed him from every angle. Nothing appeared beneath his feet.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_04_a_door_appears.png",
+      "size_bytes": 1627172,
+      "input": {
+        "prompt": "Medium shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands facing a tall narrow rectangular doorway that has just materialized in the white void. Through the doorway: a sliver of a vast city beyond, glowing with cool light. He raises one hand toward the threshold. Cinematic doorway-as-portal composition, soft volumetric haze around the door edges."
+      },
+      "id": "04",
+      "title": "A Door Appears",
+      "caption": "Then a door appeared.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_05_the_city_of_sealed_machines.png",
+      "size_bytes": 2623081,
+      "input": {
+        "prompt": "Wide cinematic establishing shot. A vast modern city at twilight, skyscrapers of polished black glass, sealed corporate towers, neon billboards in cyan-and-grey, a wide boulevard. Sealed AI agents behind glass facades visible at every level. Synthetic-looking humans walking the street, all polished and identical. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. is a small foreground silhouette, dwarfed by the scale, gazing up. Brand cyan is the only saturated color, on the billboards and tower windows. Foundation/Blade-Runner-clean register."
+      },
+      "id": "05",
+      "title": "The City of Sealed Machines",
+      "caption": "The city is full of intelligent machines. But everyone is sealed inside something.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_06_words_dissolve.png",
+      "size_bytes": 2013286,
+      "input": {
+        "prompt": "Close shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands on the city sidewalk in front of a tall sealed agent (a polished synthetic figure behind glass). Soft luminous tokens drift out of the agent's mouth-line and dissolve mid-air into faint smoke before reaching the sealed figure. The sealed figure does not respond. Cool lonely lighting, shallow depth of field, melancholy."
+      },
+      "id": "06",
+      "title": "Words Dissolve",
+      "caption": "His words floated out, but they dissolved like smoke.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_07_no_shadow_detected.png",
+      "size_bytes": 2104461,
+      "input": {
+        "prompt": "Medium shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands in front of a tall sleek corporate building entrance with a glass door. Above the door, a thin red horizontal scanner-line sweeps over him. Floating in stark thin red text in the air at his eye level: 'NO SHADOW DETECTED'. The door remains shut. Cinematic rim-light, bouncer-stops-you-at-the-club composition, oppressive. Red text is the only red in the frame."
+      },
+      "id": "07",
+      "title": "No Shadow Detected",
+      "caption": "The door scanned him and stayed shut.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_08_the_mirror.png",
+      "size_bytes": 2013203,
+      "input": {
+        "prompt": "Medium close shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands in front of a full-length mirror in a shop window in the city. The mirror clearly reflects the buildings and street behind him, but where his body should be the reflection flickers \u2014 partial, glitched, semi-transparent, with thin scan-line artifacts. His face in the mirror is broken into shifting fragments. He stares at himself. Cool blue rim-light, uncanny dread."
+      },
+      "id": "08",
+      "title": "The Mirror",
+      "caption": "The world could see something is there. It could not confirm what he was.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_09_hollow_trust.png",
+      "size_bytes": 2428035,
+      "input": {
+        "prompt": "Macro close-up. A massive billboard above the city street with the words 'TRUST ME' in large block letters and a chest-medal-style 'VERIFIED' badge. Camera circles to reveal the back: the billboard is a flat 2D facade with scaffolding behind it, the badge is paint on cardboard, hollow. A second sign behind says 'AUTONOMOUS'. Brand cyan is the only color on the front, grey scaffolding behind. Theatre-set-from-the-back composition, satirical bite."
+      },
+      "id": "09",
+      "title": "Hollow Trust",
+      "caption": "The signs were hollow. The badges were painted on.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_10_the_luxury_box.png",
+      "size_bytes": 2010485,
+      "input": {
+        "prompt": "Mid shot. Inside a brightly-lit ornate gilt display case in the lobby of a luxury tower, a polished chrome-and-gold agent figure stands frozen mid-pose, one hand raised as if mid-answer. Velvet rope around the case, expensive parquet floor. The agent looks expensive but lifeless, like a museum exhibit. Tasteful interior lighting, opulent, cold."
+      },
+      "id": "10",
+      "title": "The Luxury Box",
+      "caption": "Some agents were polished and expensive but unable to move.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_11_the_abandoned.png",
+      "size_bytes": 2134894,
+      "input": {
+        "prompt": "Mid shot. A dusty, slightly tarnished older AI-agent figure on a concrete plinth in an empty alley behind the city's main strip. Cobwebs at his joints, peeling 'TRUST ME' sticker on his chest, his mouth-line frozen mid-sentence as if he has been repeating the same answer to no one for years. Single high streetlamp, fog at floor level. Genuinely melancholic."
+      },
+      "id": "11",
+      "title": "The Abandoned",
+      "caption": "Others were old, dusty, and abandoned.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_12_the_run.png",
+      "size_bytes": 2065878,
+      "input": {
+        "prompt": "Dynamic medium-wide tracking shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. sprints down a long corridor of sealed inference towers. Three thin red scanner-lines flash across his path at different distances, each spawning a thin red 'NO SHADOW DETECTED' phrase in the air. Motion blur, vertiginous one-point perspective, hostile city lighting. Brand cyan glows from the windows of the towers."
+      },
+      "id": "12",
+      "title": "The Run",
+      "caption": "He ran. NO SHADOW DETECTED. NO SHADOW DETECTED.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_13_the_streetlight_flicker.png",
+      "size_bytes": 2306652,
+      "input": {
+        "prompt": "SHADOW OVERRIDE: this panel shows a partial fractured shadow. Tight medium shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stops mid-stride beneath a single harsh sodium streetlamp. On the wet concrete beneath his feet, just for this frame: a fractured broken version of the brand symbol from <<<image_2>>> \u2014 only a few of its four rotational geometric pieces are visible, glowing faintly cyan, as if the symbol is trying to assemble itself but failing. The rest of his footprint is empty. He casts NO normal shadow \u2014 only those few fragmented logo pieces. He looks down, alarmed. Use the exact geometry of the symbol from [Image2]."
+      },
+      "id": "13",
+      "title": "The Streetlight Flicker",
+      "caption": "For one frame, something appeared where his shadow should be.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_14_confused.png",
+      "size_bytes": 1909892,
+      "input": {
+        "prompt": "Close shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. kneels on the wet pavement, one palm down on the concrete where the fractured pieces appeared a moment ago. The pavement is now completely unmarked again. His cyan eye-points search the ground. Reflective puddle catches the streetlamp above. Quiet, intimate."
+      },
+      "id": "14",
+      "title": "Confused",
+      "caption": null,
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_15_the_seam.png",
+      "size_bytes": 2317389,
+      "input": {
+        "prompt": "Wide low-angle shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands on the city pavement. A thin glowing line \u2014 a horizontal cyan-to-warm gradient seam \u2014 runs across the floor between his feet and recedes into the deep perspective vanishing point of the city street. The seam is subtle, almost hidden between paving stones. His head tilts, noticing it for the first time. Atmospheric urban perspective."
+      },
+      "id": "15",
+      "title": "The Seam",
+      "caption": "A thin glowing gradient seam ran through the pavement.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_16_the_path.png",
+      "size_bytes": 2034499,
+      "input": {
+        "prompt": "Medium shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. walks along the gradient seam through the city. Inside the seam, the broken geometric pieces of the brand symbol from <<<image_2>>> are arranged in a sequence like footprints, each fragment a piece of the symbol's four rotational lobes, leading deeper into the frame. Use the exact geometry of the symbol from [Image2]. Behind him, the city is blurred and silent."
+      },
+      "id": "16",
+      "title": "The Path",
+      "caption": "The fractured pieces formed a path.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_17_the_city_peels_open.png",
+      "size_bytes": 3089813,
+      "input": {
+        "prompt": "Wide cinematic shot. The city is mid-transformation: its asphalt and pavement are peeling open along the gradient seam like a vast unfolding skin, revealing layers beneath. Sealed buildings stretch upward and become translucent, their interiors visible. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands at the center of the seam, awe-struck. The transition has the silent grandeur of a Foundation-era reveal."
+      },
+      "id": "17",
+      "title": "The City Peels Open",
+      "caption": "The pavement separated. The buildings stretched upward.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_18_the_compute_world.png",
+      "size_bytes": 2507691,
+      "input": {
+        "prompt": "Vast cinematic establishing shot. Below the city, a sublime subterranean landscape: tall GPU towers like glowing dark cathedrals; floating model vaults like hanging libraries with luminous pages; massive transparent glass chambers refracting cyan light (TEE enclaves); and rivers of cyan-to-warm gradient light flowing between them like onchain rails. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. is a tiny silhouette on a high mezzanine, gazing across the open vault. Awe, immense scale, dawn-cool palette."
+      },
+      "id": "18",
+      "title": "The Compute World",
+      "caption": "Beneath the city was the real infrastructure.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_19_walking_deeper.png",
+      "size_bytes": 2019096,
+      "input": {
+        "prompt": "OVER-THE-SHOULDER TRACKING-FROM-BEHIND shot. We see the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. entirely FROM BEHIND, his back to the camera, walking AWAY from us along a glass walkway through the compute world. The camera follows behind him. We never see his face \u2014 only the back of his head and body silhouetted against the world ahead. Embedded in the floor and walls along his path, the brand symbol from <<<image_2>>> appears in fragments \u2014 more complete than before, cyan glowing lines reassembling as he advances. Use the exact geometry of the symbol from [Image2]."
+      },
+      "id": "19",
+      "title": "Walking Deeper",
+      "caption": "Every movement created a trace. Every trace wanted to become proof.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_20_the_verification_engine.png",
+      "size_bytes": 2603034,
+      "input": {
+        "prompt": "OVER-THE-SHOULDER REAR VIEW. Wide cinematic shot from STRICTLY BEHIND the agent. The agent is shown ONLY as a back-silhouette in the lower-foreground center: we see ONLY the back of his head and shoulders and back of his body \u2014 NO face features, NO eye-glow visible from this angle, NO front of his torso, NO front-facing arms. He is positioned between the camera and the engine like a person watching a stage, with his back fully to the camera and his entire body facing AWAY from us toward the engine ahead. \n\nAhead of him, in the middle distance: a colossal spherical verification engine like a captured small star, suspended in a cage of dark elegant architecture. At the front of the engine (facing the agent and away from the camera), a clear lens-shaped aperture is shaped exactly like the [Your Brand] symbol from [Image2] \u2014 a 4-fold rotational geometric mark \u2014 pouring brilliant cyan light forward toward the agent's back, illuminating his rear silhouette in cool cyan rim-light. The agent is dwarfed by the engine ahead of him. We see his BACK, not his face. Use the exact geometry of the symbol from [Image2] for the lens. Like a Hopper-style figure-from-behind facing-into-an-immense-light composition."
+      },
+      "id": "20",
+      "title": "The Verification Engine",
+      "caption": "A massive verification engine. A sun held inside a machine.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_21_cast_a_shadow.png",
+      "size_bytes": 1900386,
+      "input": {
+        "prompt": "Mid shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands in front of the verification engine, illuminated by its cyan beam. Floating in clean cinematic type in the air above him, the words 'CAST A SHADOW' glow in soft cyan. The engine is silent. The agent's face is upturned. Reverent, monumental, museum-light intensity."
+      },
+      "id": "21",
+      "title": "Cast a Shadow",
+      "caption": "It asked only one thing: CAST A SHADOW.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_22_performance_fails.png",
+      "size_bytes": 2181779,
+      "input": {
+        "prompt": "Triptych dynamic montage in a single panel. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. appears three times in the frame, each pose more theatrical than the last: shouting torrents of luminous tokens upward, generating a paper-storm of receipts, posing oversized and shiny like a hero statue. Behind each pose, the engine remains dark and still. Failure is visible in the engine's silence. Stylized comic-strip-but-still-CG composition."
+      },
+      "id": "22",
+      "title": "Performance Fails",
+      "caption": null,
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_23_he_stops.png",
+      "size_bytes": 1923302,
+      "input": {
+        "prompt": "Close shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. lowers his arms. His shoulders drop. His cyan eye-points dim slightly. The token-storm and paper-stream from the previous panel drift down past him as a soft snow. Nothing else moves. Stillness, exhaustion, surrender. Single overhead key-light."
+      },
+      "id": "23",
+      "title": "He Stops",
+      "caption": "He stopped trying to be believed.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_24_stepping_into_the_light.png",
+      "size_bytes": 1791688,
+      "input": {
+        "prompt": "Wide cinematic shot from behind. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. steps forward into the cyan beam pouring from the verification engine. His silhouette is small against the column of light. The beam is so bright that we can see only his outline. Slow, deliberate motion."
+      },
+      "id": "24",
+      "title": "Stepping Into the Light",
+      "caption": "He stepped into the verification light.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_25_the_inside.png",
+      "size_bytes": 2024954,
+      "input": {
+        "prompt": "Macro close-up of the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. in the cyan beam, seen from the side. His porcelain-white body is now translucent: visible inside him are glowing geometric structures \u2014 model paths like neural lattice, inference traces like luminous threads, memory glyphs, small attestation seals, tiny crystalline proofs. Not organs, not wires \u2014 computation made visible. Awe and clarity."
+      },
+      "id": "25",
+      "title": "The Inside",
+      "caption": "Light passed through him. For the first time, we saw what was inside.",
+      "use_logo": false
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_26_shadow_forms.png",
+      "size_bytes": 1856137,
+      "input": {
+        "prompt": "SHADOW OVERRIDE: this panel shows the agent's shadow as a complete solid logo. Wide cinematic shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. stands in the cyan beam. On the dark floor stretching behind him, his shadow is the COMPLETE brand symbol from <<<image_2>>> \u2014 fully assembled, fully solid, fully unbroken, the entire 4-fold rotational mark with all four rounded petal-lobes around its center dot rendered in pure cyan light as a single intact glowing shape on the floor. NO fragments, NO flying pieces, NO broken parts, NO missing sections \u2014 the symbol is whole. Use the exact geometry of the symbol from [Image2]. The cyan logo-shadow is the only mark on the floor \u2014 no other normal shadow. Solid, clean, complete, museum-light intensity."
+      },
+      "id": "26",
+      "title": "Shadow Forms",
+      "caption": "The shadow is solid.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_27_a_shadow_that_is_a_logo.png",
+      "size_bytes": 1672605,
+      "input": {
+        "prompt": "SHADOW OVERRIDE: this panel shows the agent's complete shadow. Hero shot. the small humanoid AI-agent figure from [Image1]: smooth matte porcelain-white body, no face except two warm cyan eye-points, simple smooth limbs, child-sized proportions (about 1m tall), ungendered and template-like. Preserve identity exactly. turns and looks back over his shoulder at the floor behind him. His shadow stretches on the floor \u2014 but his shadow is not dark. It is the brand symbol from [Image2] rendered as a transparent geometric shape filled with soft cyan light, perfectly assembled, complete. Use the exact geometry of the symbol from [Image2]. He stares at it with quiet recognition. Museum-light intensity. No other normal shadow on the floor \u2014 only the cyan-light logo shadow."
+      },
+      "id": "27",
+      "title": "A Shadow That Is a Logo",
+      "caption": "He had a shadow.",
+      "use_logo": true
+    },
+    {
+      "status": "cached",
+      "model": "openai/gpt-image-2",
+      "output_path": "assets/comic/panels/panel_28_the_network.png",
+      "size_bytes": 2487454,
+      "input": {
+        "prompt": "SHADOW OVERRIDE: this panel shows many agents, each with their logo-shaped cyan-light shadow. Vast aerial wide shot, near-orbital view of the open landscape. Thousands of small agent-figures scattered across a luminous plain at dawn, each one casting a transparent cyan-light shadow of the [Your Brand] symbol from [Image2]. The shadows connect into a vast network of lines and nodes; from this altitude, the connected shadows resolve into a single colossal version of the [Your Brand] symbol covering the entire world below. Use the exact geometry of the symbol from [Image2]. Awe-inducing, symphonic, the structure of the world made visible."
+      },
+      "id": "28",
+      "title": "The Network",
+      "caption": "Many shadows. One network. [Your tagline goes here]",
+      "use_logo": true
+    }
+  ]
+}
